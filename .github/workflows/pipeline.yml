@@ -17,4 +17,6 @@ jobs:
           username: ankurcontainerregistry
           password: wIR0scGst3yPGCZThm1hBGydmlDrgfFcD1pNARrGdU+ACRDdywm
       - name: build and push image
-        run: mvn compile jib:build
+        run: |
+          cd order-service
+          mvn compile jib:build
