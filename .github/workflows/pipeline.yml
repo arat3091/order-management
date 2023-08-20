@@ -15,6 +15,6 @@ jobs:
         with:
           login-server: ankurcontainerregistry.azurecr.io
           username: ankurcontainerregistry
-          password: WEoyZNhSNqfa/D/nj9V90n0mr3Oau6NmYkvtKT4roa+ACRCy5tpu
+          password: wIR0scGst3yPGCZThm1hBGydmlDrgfFcD1pNARrGdU+ACRDdywmd
       - name: build and push image
         run: mvn compile jib:build
